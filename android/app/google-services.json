@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771614633320",
+    "project_id": "stylesnap-837b1",
+    "storage_bucket": "stylesnap-837b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771614633320:android:90fb1f0c50ff9fd06b3add",
+        "android_client_info": {
+          "package_name": "com.example.stylesnap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAesNxb_ky1KYZdsTB3fCFGxhao2qp4d44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
