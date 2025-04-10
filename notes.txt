@@ -1,0 +1,23 @@
+📌 Notes for Project Structure
+
+1. auth_service.dart
+   - Handles Firebase Authentication (Signup, Login, Logout)
+   - Checks for persistent login (authStateChanges)
+
+2. auth_screen.dart
+   - Allows users to log in or sign up
+   - Uses auth_service.dart for authentication
+   - Redirects to home_screen.dart on success
+
+3. home_screen.dart
+   - Displays a welcome message
+   - Shows a success login popup
+   - Contains a drawer for navigation to settings
+
+4. settings_screen.dart
+   - Provides a logout button
+   - Uses auth_service.dart to log out users
+
+5. main.dart
+   - Initializes the Firebase app
+   - Listens for authentication state changes to redirect users
